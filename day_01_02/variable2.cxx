@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	 /*to assign multiple veriables at once*/
 	 int var1 = 30, var2 = 25;
 	 printf("\n%d", var1);
-	 printf("\n\n%d", var2);
+	 printf("\n%d", var2);
 	 
 	 
 	return 0;
