@@ -38,10 +38,18 @@ int* ptr;
 
 
   assuming:
-  int number
+  int number;
+  int* ptr = &number;
 
+  ptr = number;// invalid because ptr is a memory location and number is just a variable not specifying the loction of the variable
 
+  *ptr = &number //invalid this is invalid because *ptr is refering to the vslue and not the memory address
+   
+  ptr = &number // valid because ptr is a memory location and &number is a memory location of the variable number
+ 
+  *ptr = number // this is valid because *ptr is refering tothe valuse in that specified memory locstion and number is a variable that has a value
 
+  */
 */
 
     return 0;

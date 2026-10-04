@@ -43,6 +43,6 @@ strcpy(bestFood, food);//it takes two values : the destination then the target
 // you can change their content to see how it works
  int result = strcmp(text3,text4);
 printf("\n The result is %d", result);
-// apart from this four there still a lot that
+// apart from this four there still a lot that you can do with strings in c but these are the most important and most used functions
     return 0;
 }
