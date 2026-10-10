@@ -5,7 +5,7 @@ int main()
 	if user input a +ve value, it will be printed. However if the user input -ve value the loop would be terminated 
 	
 	*/
-	¹
+	
 	while ( 1 ){ // Since 1 is always true the block of code would always be executed
 	    int a; // initializes a variable
 	    printf("    Enter a number    :    ");// instruction message

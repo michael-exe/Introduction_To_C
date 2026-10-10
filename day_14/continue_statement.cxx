@@ -8,7 +8,7 @@ int main()
 	  if (i == 3)  {
 	    continue;
 	}
-	printf("Rhema    %d\n", i);// the thrid step is skipped
+	printf("Rhema    %d\n", i);// the thrid step is skipped therefor 3 wont be printed
 	}
 	return 0;
 }

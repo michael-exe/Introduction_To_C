@@ -9,7 +9,7 @@ int main() {
 	    printf("        %d \n", i);
 	    break;
 	    
-	    // here rhe break statemenrt breaks the loop after 9me iteration of rhe for loop. After breaking the compiler extis the for loop statement
+	    // here the break statement breaks the loop after the iteration of the for loop. After breaking the compiler extis the for loop statement
 	    
 	    printf("After the break");// as you can see this line is not executed
 	}

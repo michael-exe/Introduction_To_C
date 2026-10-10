@@ -47,10 +47,10 @@ int* ptr;
    
   ptr = &number // valid because ptr is a memory location and &number is a memory location of the variable number
  
-  *ptr = number // this is valid because *ptr is refering tothe valuse in that specified memory locstion and number is a variable that has a value
+  *ptr = number // this is valid because *ptr is refering to the valuse in that specified memory locstion and number is a variable that has a value
 
   */
-*/
+
 
     return 0;
 }
