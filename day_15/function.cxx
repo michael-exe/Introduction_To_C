@@ -1,5 +1,5 @@
 /*
-A function is a group of related statement that perform a specific task overall. they help divid a large code int smaller chunks so that it is easier to understand
+A function is a group of related statement that perform a specific task overall. they help divide a large code int smaller chunks so that it is easier to understand
 
 syntax :
                     returnType functionName(){
