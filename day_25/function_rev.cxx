@@ -11,7 +11,11 @@ int sqr (int number){
 
 int main (){
     
-    sqr(4);
+    int val;
+    printf("Enter the number to find its' square : ");
+    scanf("%d", &val);
+
+    sqr(val);
     printf("\n");
 
     return 0;
