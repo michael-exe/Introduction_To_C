@@ -9,8 +9,6 @@ printf("%p", &age);
 
 int* ptr = &age ;// the '*' is used to tag it as a pointer variable
 
-printf("\n%p", ptr);
-
 
 // this progam should prit the same memory address for the two variable
 
