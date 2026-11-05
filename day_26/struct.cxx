@@ -28,9 +28,24 @@ struct Student s2 = {"Solomon", 4.95, 34};
 
 
 //printing te contents
-printf("%s , %.3lf , %d", s1.name,s1.cgpa,s1.age);
+printf("%s , %.3lf , %d\n", s1.name,s1.cgpa,s1.age);
 
 
-printf("%s , %.2lf , %d", s2.name,s2.cgpa,s2.age);
-    return 0;
+printf("%s , %.3lf , %d\n", s2.name,s2.cgpa,s2.age);
+    
+// to copy a structure variable e.g. "struct Student s1" you can copy it like a normal variable
+
+struct Student s3;
+s3 = s2;
+  // here struct tells the compiler that it a structure, then the datatype of that structure is specified by the second element the the name of the variable is the last element, which are in this case the s21, s2, s3
+printf("%s, %.3lf, %d", s3.name,s3.cgpa,s3.age);
+
+
+
+
+
+
+
+
+return 0;
 }
